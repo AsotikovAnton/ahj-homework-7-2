@@ -13,8 +13,8 @@ export default class Popovers {
       <p>Подробное описание</p>
       <input type="text" id="description" class="input" value="">
       <div class="buttons">
-        <div id="pCancel" class="button">Отмена</div>
         <div id="pSave" class="button">ОК</div>
+        <div id="pCancel" class="button">Отмена</div>
       </div>
     `;
   }

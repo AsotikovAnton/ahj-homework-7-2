@@ -4,7 +4,7 @@ export default function initData() {
   params.append('description', 'Поменять краску в принтере, ком. 404');
 
   const xhr = new XMLHttpRequest();
-  xhr.open('POST', 'https://grudge-7-1.herokuapp.com/tickets');
+  xhr.open('POST', 'https://grudge-7-1.herokuapp.com/');
   xhr.addEventListener('load', () => {
     if (xhr.status === 200) {
       console.log(xhr.responseText);

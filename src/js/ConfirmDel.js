@@ -7,8 +7,8 @@ export default class ConfirmDel {
     <p>Удалить тикет?</p>
     <p>Вы уверены, что хотите удалить тикет? Это действие необратимо.</p>
     <div class="buttons">
-      <div id="cancel-del" class="button">Отмена</div>
       <div id="ok-del" class="button">ОК</div>
+      <div id="cancel-del" class="button">Отмена</div>
     </div>
     `;
     document.body.appendChild(formConfirmDel);
